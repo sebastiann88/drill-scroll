@@ -1,0 +1,27 @@
+columnSuffix: ssghjbhi
+contentColumnType: text
+fieldGroup: dd4ebc89-4e49-47dc-ab48-2233051c48e1 # Common
+handle: thirdParagraph
+instructions: 'Enter third paragraph text'
+name: 'Third Paragraph'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

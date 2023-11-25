@@ -16,7 +16,7 @@ return [
         // Applies to all environments:
         'defaultWeekStartDay' => 1,
         'omitScriptNameInUrls' => true,
-        'allowAdminChanges' => false,
+        'allowAdminChanges' => true,
         'cpTrigger' => 'scroll',
     ],
 
@@ -28,6 +28,7 @@ return [
 
     'production' => [
         // Only applies to the production environment, overriding anything in `*`:
+        'allowAdminChanges' => true,
         'preventUserEnumeration' => true,
     ],
 ];

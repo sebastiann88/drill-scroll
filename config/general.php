@@ -18,6 +18,7 @@ return [
         'omitScriptNameInUrls' => true,
         'allowAdminChanges' => true,
         'cpTrigger' => 'scroll',
+        'extraAllowedFileExtensions' => 'usdz, glb'
     ],
 
     'dev' => [

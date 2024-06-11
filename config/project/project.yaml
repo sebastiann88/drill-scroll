@@ -1,17 +1,27 @@
-dateModified: 1694007290
+dateModified: 1717930522
 email:
   fromEmail: sebastian.nadeau45@gmail.com
   fromName: 'Drill Scroll'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  glb:
+    hasUrls: true
+    name: Glb
+    settings:
+      path: '@root/web/assets/glb'
+    type: craft\fs\Local
+    url: 'https://drill-scroll.test/assets/glb'
 meta:
   __names__:
     0dcb58ac-e0a1-4a13-a3a7-5ffdee433960: 'First Button' # First Button
+    0fd5a572-a9a7-4fef-9222-3b8be60e73f5: Glb # Glb
     2ec53cce-f3e8-4382-8e99-3ad7a8b2836d: 'Drill Scroll' # Drill Scroll
     3da12c84-7583-44b0-8453-25d00c74aa4f: 'Second Paragraph' # Second Paragraph
     8bae8270-1bfb-4ef1-90a5-6dbeb08afc90: 'Third Heading' # Third Heading
     70b81344-863b-459b-a6f0-16b1eced2112: 'Second Heading' # Second Heading
     74bd1a1d-cf8a-46c9-9d1c-50052ba6390d: 'First Paragraph' # First Paragraph
     133ac6e7-01dd-46ed-9db3-079ea8deb556: 'Second Button' # Second Button
+    3215f0af-4e06-4f04-9169-d8792cb2ba8c: 'GLB 3D File' # GLB 3D File
     5031e9ef-7160-4890-ad1b-139d5104bc28: Home # Home
     4107459f-c1ee-491b-a01d-6fe56b00442c: 'Third Paragraph' # Third Paragraph
     4608749c-1ac8-41d2-a60c-20232d848674: Home # Home

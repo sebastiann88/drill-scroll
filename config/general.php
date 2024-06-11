@@ -18,18 +18,20 @@ return [
         'omitScriptNameInUrls' => true,
         'allowAdminChanges' => true,
         'cpTrigger' => 'scroll',
-        'extraAllowedFileExtensions' => 'usdz, glb'
+        'extraAllowedFileExtensions' => 'usdz, glb',
     ],
 
     'dev' => [
         // Only applies to development environments, overriding anything in `*`:
         'allowAdminChanges' => true,
         'devMode' => true,
+        'extraAllowedFileExtensions' => 'usdz, glb',
     ],
 
     'production' => [
         // Only applies to the production environment, overriding anything in `*`:
         'allowAdminChanges' => true,
         'preventUserEnumeration' => true,
+        'extraAllowedFileExtensions' => 'usdz, glb',
     ],
 ];

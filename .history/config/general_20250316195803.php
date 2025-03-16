@@ -26,6 +26,7 @@ return GeneralConfig::create()
         '@primaryBaseUrl' => App::env('PRIMARY_SITE_URL'),
         '@franchisingBaseUrl' => App::env('FRANCHISING_SITE_URL'),
     ])
+    'siteUrl' => 'https://example.ca'
     // Control Panel trigger word
     ->cpTrigger('scroll')
     // Allow GLB Files

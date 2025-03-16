@@ -6,4 +6,10 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} !^/(favicon\.ico|apple-touch-icon.*\.png)$ [NC]
     RewriteRule (.+) index.php [L]
+
+    # Force SSL for control panel requests
+    RewriteCond %{HTTP_HOST} drill-scroll.laravel.cloud [NC]
+    RewriteCond %{REQUEST_URI} ^/scroll/ [NC]
+    RewriteCond %{HTTPS} !=on
+    RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [NC,R=301,L]
 </IfModule>

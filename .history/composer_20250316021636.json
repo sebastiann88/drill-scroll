@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "4.9.7",
+    "craftcms/cms": "^5.6.0",
     "craftcms/redactor": "3.0.4",
     "vlucas/phpdotenv": "^5.4.0",
     "laravel/framework": "^10.0.0"
@@ -21,7 +21,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.1.13"
+      "php": "8.2"
     }
   },
   "scripts": {

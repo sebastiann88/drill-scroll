@@ -2,8 +2,7 @@
   "require": {
     "craftcms/cms": "4.9.7",
     "craftcms/redactor": "3.0.4",
-    "vlucas/phpdotenv": "^5.4.0",
-    "laravel/framework": "^10.0.0"
+    "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"

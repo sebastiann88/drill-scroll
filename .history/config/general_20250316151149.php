@@ -25,7 +25,7 @@ return GeneralConfig::create()
         '@webroot' => dirname(__DIR__) . '/web',
     ])
     // Control Panel trigger word
-    ->cpTrigger('scroll')
+    ->cpTrigger('distinctive')
     // Allow GLB Files
     ->extraAllowedFileExtensions(['glb'])
 ;

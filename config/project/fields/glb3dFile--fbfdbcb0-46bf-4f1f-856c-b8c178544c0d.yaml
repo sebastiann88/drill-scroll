@@ -1,0 +1,35 @@
+columnSuffix: null
+handle: glb3dFile
+instructions: 'Add 3D GLB asset.'
+name: 'GLB 3D File'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds: null
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:ffd586d9-60ce-4209-8c12-2addae5f0931' # Glb
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:ffd586d9-60ce-4209-8c12-2addae5f0931' # Glb
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add 3D file'
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:ffd586d9-60ce-4209-8c12-2addae5f0931' # Glb
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

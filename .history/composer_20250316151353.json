@@ -4,8 +4,7 @@
   "require": {
     "craftcms/ckeditor": "4.6.0",
     "craftcms/cms": "^5.0.0",
-    "vlucas/phpdotenv": "^5.4.0",
-    "laravel/framework": "^10.0.0"
+    "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
     "craftcms/generator": "^2.0.0",

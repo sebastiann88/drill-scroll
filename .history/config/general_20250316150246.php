@@ -24,8 +24,4 @@ return GeneralConfig::create()
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',
     ])
-    // Control Panel trigger word
-    ->cpTrigger('scroll')
-    // Allow GLB Files
-    ->extraAllowedFileExtensions(['glb'])
 ;

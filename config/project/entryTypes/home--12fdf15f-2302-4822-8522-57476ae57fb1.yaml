@@ -1,0 +1,165 @@
+color: null
+fieldLayouts:
+  1257f0c2-3787-4dee-b34b-ce6638e06f88:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-16T19:34:19+00:00'
+            elementCondition: null
+            fieldUid: fbfdbcb0-46bf-4f1f-856c-b8c178544c0d # GLB 3D File
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3a59906-70f7-497e-ae23-6b01501ec9de
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 189a459d-5125-41f4-9168-d6ad72c36f16 # First Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7cc1ce8-54cd-4687-b2e5-4ddd697cd427
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 425a3203-c3d8-4997-9176-fe9e1b119abb # First Paragraph
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37097a20-9e20-48d0-b5dd-20a5c0623421
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 56f81ca0-9d21-4a22-9f4a-ac0da6b48f2a # First Button
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fae4efca-098a-4dc1-8280-32b883db8026
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: e990f0c0-9fc1-431e-be46-5ca87155868a # Second Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d4f08c3-b5c3-4ed5-8c7c-20ad34a2a1e1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 603683b7-a83c-4dff-a535-d8a6a1624ff2 # Second Paragraph
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28dc1cc5-3e2d-4b5a-a7d1-6d7f3eb61c72
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: e77847f5-6f8e-4b56-93da-fb4581582da5 # Third Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 299cf7ec-ede0-491d-8dc2-0c4862084c6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 171b7db2-f998-4f19-ab36-694927f87e51 # Third Paragraph
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59e288b4-82c3-49ed-87a7-2e8739439e10
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-16T19:21:36+00:00'
+            elementCondition: null
+            fieldUid: 61cd3592-cd6f-4363-811d-696440c8ca30 # Second Button
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 629a8986-031d-4938-9bc6-35ed7fec30f7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 492151f0-d4e2-46c3-9aa4-dccbfcd77bca
+        userCondition: null
+handle: home
+hasTitleField: false
+icon: house
+name: Home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: Home
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

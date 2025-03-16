@@ -1,7 +1,7 @@
-dateModified: 1717930522
+dateModified: 1742153659
 email:
   fromEmail: sebastian.nadeau45@gmail.com
-  fromName: 'Drill Scroll'
+  fromName: drill-scroll
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   glb:
@@ -10,38 +10,39 @@ fs:
     settings:
       path: '@root/web/assets/glb'
     type: craft\fs\Local
-    url: 'https://drill-scroll.test/assets/glb'
+    url: 'https://drill-scroll.ddev.site/assets/glb'
 meta:
   __names__:
-    0dcb58ac-e0a1-4a13-a3a7-5ffdee433960: 'First Button' # First Button
-    0fd5a572-a9a7-4fef-9222-3b8be60e73f5: Glb # Glb
-    2ec53cce-f3e8-4382-8e99-3ad7a8b2836d: 'Drill Scroll' # Drill Scroll
-    3da12c84-7583-44b0-8453-25d00c74aa4f: 'Second Paragraph' # Second Paragraph
-    8bae8270-1bfb-4ef1-90a5-6dbeb08afc90: 'Third Heading' # Third Heading
-    70b81344-863b-459b-a6f0-16b1eced2112: 'Second Heading' # Second Heading
-    74bd1a1d-cf8a-46c9-9d1c-50052ba6390d: 'First Paragraph' # First Paragraph
-    133ac6e7-01dd-46ed-9db3-079ea8deb556: 'Second Button' # Second Button
-    3215f0af-4e06-4f04-9169-d8792cb2ba8c: 'GLB 3D File' # GLB 3D File
-    5031e9ef-7160-4890-ad1b-139d5104bc28: Home # Home
-    4107459f-c1ee-491b-a01d-6fe56b00442c: 'Third Paragraph' # Third Paragraph
-    4608749c-1ac8-41d2-a60c-20232d848674: Home # Home
-    dd4ebc89-4e49-47dc-ab48-2233051c48e1: Common # Common
-    f03b3c79-0597-4b66-b23b-519417ad4937: 'First Heading' # First Heading
-    fff91f60-e98d-49d5-8484-d18086e7bb4c: 'Drill Scroll' # Drill Scroll
+    06b282e2-fde0-44db-956f-65318238e98d: drill-scroll # drill-scroll
+    7c9447ff-0044-4b0c-a5da-34c534673ae2: Simple # Simple
+    12fdf15f-2302-4822-8522-57476ae57fb1: Home # Home
+    56f81ca0-9d21-4a22-9f4a-ac0da6b48f2a: 'First Button' # First Button
+    61cd3592-cd6f-4363-811d-696440c8ca30: 'Second Button' # Second Button
+    171b7db2-f998-4f19-ab36-694927f87e51: 'Third Paragraph' # Third Paragraph
+    189a459d-5125-41f4-9168-d6ad72c36f16: 'First Heading' # First Heading
+    425a3203-c3d8-4997-9176-fe9e1b119abb: 'First Paragraph' # First Paragraph
+    603683b7-a83c-4dff-a535-d8a6a1624ff2: 'Second Paragraph' # Second Paragraph
+    d63b7918-9b9b-465e-9438-73ce1e29f44c: Home # Home
+    e990f0c0-9fc1-431e-be46-5ca87155868a: 'Second Heading' # Second Heading
+    e77847f5-6f8e-4b56-93da-fb4581582da5: 'Third Heading' # Third Heading
+    f9ca987c-408c-431b-9952-2f1bb6913897: drill-scroll # drill-scroll
+    fbfdbcb0-46bf-4f1f-856c-b8c178544c0d: 'GLB 3D File' # GLB 3D File
+    ffd586d9-60ce-4209-8c12-2addae5f0931: Glb # Glb
 plugins:
-  redactor:
+  ckeditor:
     edition: standard
     enabled: true
-    schemaVersion: 2.3.0
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
-  name: 'Drill Scroll'
-  schemaVersion: 4.5.3.0
+  name: drill-scroll
+  schemaVersion: 5.6.0.2
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
   defaultGroup: null
   photoSubpath: null
   photoVolumeUid: null
+  require2fa: false
   requireEmailVerification: true

@@ -1,6 +1,6 @@
 name: drill-scroll
 type: craftcms
-docroot: public
+docroot: web
 php_version: "8.2"
 webserver_type: nginx-fpm
 xdebug_enabled: false

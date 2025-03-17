@@ -24,6 +24,7 @@ return GeneralConfig::create()
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/public',
         '@primaryBaseUrl' => App::env('PRIMARY_SITE_URL'),
+        '@franchisingBaseUrl' => App::env('FRANCHISING_SITE_URL'),
         '@preview' => App::env('PRIMARY_SITE_URL'),
     ])
     // Control Panel trigger word

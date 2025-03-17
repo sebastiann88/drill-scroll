@@ -24,13 +24,4 @@ use craft\helpers\App;
 
 return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
-    'components' => [
-        'response' => [
-            'class' => yii\web\Response::class,
-            'on beforeSend' => function ($event) {
-                $response = $event->sender;
-                $response->headers->set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';");
-            },
-        ],
-    ],  
 ];

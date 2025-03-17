@@ -24,12 +24,4 @@ use craft\helpers\App;
 
 return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
-    'components' => [
-        'response' => [
-            'on beforeSend' => function ($event) {
-                $response = $event->sender;
-                $response->headers->set('Content-Security-Policy', 'upgrade-insecure-requests');
-            },
-        ],
-    ],
 ];

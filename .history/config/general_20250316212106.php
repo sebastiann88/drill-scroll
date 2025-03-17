@@ -30,5 +30,5 @@ return GeneralConfig::create()
     ->cpTrigger('scroll')
     // Allow GLB Files
     ->extraAllowedFileExtensions(['glb'])
-    ->set('Content-Security-Policy', 'upgrade-insecure-requests')
+    ->set('Content-Security-Policy', 'upgrade-insecure-requests');
 ;
